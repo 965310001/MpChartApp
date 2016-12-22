@@ -30,6 +30,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     private Context mContext;
 
+    //我的认识
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
