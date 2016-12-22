@@ -30,7 +30,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     private Context mContext;
 
-    //我的认识系学校需
+    //我的认识系学校需  郭故宫
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
