@@ -44,8 +44,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 //        Linedata 整个Y轴的数据
         initLineChart();
 
-     Button button=new Button(this);
-        button.setTextSize(15f);
+        setButton();
 
         mContext=this;
         findViewById(R.id.button1).setOnClickListener(this);
@@ -55,6 +54,11 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         PayTask mPayVersion=new PayTask(this);
         Log.d("tag",mPayVersion.getVersion());
 
+    }
+
+    private void setButton() {
+        Button button=new Button(this);
+        button.setTextSize(15f);
     }
 
     @Override
