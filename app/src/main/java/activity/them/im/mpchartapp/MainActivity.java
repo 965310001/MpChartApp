@@ -10,7 +10,6 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 
 import com.alipay.sdk.app.PayTask;
 import com.github.mikephil.charting.charts.LineChart;
