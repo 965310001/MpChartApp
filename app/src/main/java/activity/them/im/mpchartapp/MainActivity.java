@@ -47,7 +47,6 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
      Button button=new Button(this);
         button.setTextSize(15f);
 
-
         mContext=this;
         findViewById(R.id.button1).setOnClickListener(this);
         findViewById(R.id.button2).setOnClickListener(this);
