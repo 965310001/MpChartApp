@@ -41,7 +41,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 //        Entry 为每个点的类
 //        DataSet 一组Y轴上面的数据
 //        Linedata 整个Y轴的数据
-//        initLineChart();
+        initLineChart();
 
         mContext=this;
         findViewById(R.id.button1).setOnClickListener(this);

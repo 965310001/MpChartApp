@@ -15,4 +15,10 @@
         android:text="微信"
         android:id="@+id/button2"
         android:layout_gravity="center_horizontal" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lineChart"
+        ></com.github.mikephil.charting.charts.LineChart>
 </LinearLayout>
