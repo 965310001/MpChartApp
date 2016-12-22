@@ -31,8 +31,6 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     private Context mContext;
 
-    //我的认识系学校需  郭故宫
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +42,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 //        Linedata 整个Y轴的数据
         initLineChart();
 
-        setButton();
+        setText();
+
+        for (int i = 0; i < 10; i++) {
+            Log.d("tag",i+"");
+        }
+
 
         mContext=this;
         findViewById(R.id.button1).setOnClickListener(this);
@@ -56,7 +59,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     }
 
-    private void setButton() {
+    private void setText() {
         Button button=new Button(this);
         button.setTextSize(15f);
     }
