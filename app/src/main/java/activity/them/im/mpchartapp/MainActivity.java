@@ -32,6 +32,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     //我的认识系学校需  郭故宫
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
