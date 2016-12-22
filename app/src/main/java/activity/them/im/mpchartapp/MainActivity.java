@@ -10,6 +10,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 
 import com.alipay.sdk.app.PayTask;
 import com.github.mikephil.charting.charts.LineChart;
@@ -42,6 +43,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 //        DataSet 一组Y轴上面的数据
 //        Linedata 整个Y轴的数据
         initLineChart();
+
+     Button button=new Button(this);
+        button.setTextSize(15f);
+
 
         mContext=this;
         findViewById(R.id.button1).setOnClickListener(this);
